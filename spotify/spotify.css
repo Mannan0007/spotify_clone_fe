@@ -1,0 +1,157 @@
+@font-face {
+  font-family: NotoSansTifinagh-Regular;
+  src: url(/Noto_Sans_Tifinagh/NotoSansTifinagh-Regular.ttf) format(truetype);
+  /* src: url(/Noto_Sans_Tifinagh/NotoSansTifinagh-Regular.ttf); */
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.877);
+  font-family: Arial, sans-serif;
+  display: flex;
+  color: antiquewhite;
+  overflow-x: hidden; 
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  /* width: 200px; */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  /* height: 1400px; */
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+nav img {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  /* attributes*/
+  color: aliceblue;
+  text-decoration: none;
+}
+.content {
+  padding: 20px;
+}
+
+.uppernav {
+  display: flex;
+  background-color: #333;
+  font-family: Verdana;
+  width: 1100px;
+  height: 30px;
+  padding: 20px;
+  margin-top: -25px;
+  position: fixed;
+  border-radius: 10px;
+
+  /* gap: 60px; */
+}
+.uppernav a {
+  /* position: absolute; */
+  /* right: 40px */
+  text-decoration: none;
+  color:lightgray;
+  font-size: 17px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 2px;
+
+}
+
+.uppernav a:hover{
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+}
+
+.login{
+  position: absolute;
+  right: 39px;
+}
+.login button{
+  height: 40px;
+  width: 110px;
+  border-radius: 24px;
+  font-size: 19x;
+  font-weight: 800;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: fixed;
+  right: 20px;
+  /* bottom: 7px; */
+}
+
+.login button:hover{
+  transform: scale(1.1);
+}
+
+.songs{
+  
+}
+
+.albums {
+  display: flex;
+  gap: 30px;
+  font-family: "Noto Sans Tai Le", sans-serif;
+  height: 300px;
+}
+.albums img {
+  border-radius: 10px;
+  width: 180px;
+  height: 185px;
+  /* transition: transform 0.1s ease-in-out; */
+}
+.albums a {
+  font-family: "Noto Sans Tai Le", sans-serif;
+}
+
+
+.albums img:hover {
+  transform: scale(1.1);
+}
+
+.albums2{
+  
+  display: flex;
+  gap: 30px;
+  font-family: "Noto Sans Tai Le", sans-serif;
+  height: 300px;
+}
+.albums2 img{
+  border-radius: 10px;
+  width: 185px;
+  height: 185px;
+}
+
+.albums2 img:hover {
+  transform: scale(1.1);
+}
+
+.albums3{
+  
+  display: flex;
+  gap: 30px;
+  font-family: "Noto Sans Tai Le", sans-serif;
+  height: 300px;
+}
+.albums3 img{
+  border-radius: 10px;
+  width: 185px;
+  height: 185px;
+}
+
+.albums3 img:hover {
+  transform: scale(1.1);
+}
+.play-button {
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  display: grid;
+  /* display: none; */
+}
+
+/* .Makingmemories :hover */
